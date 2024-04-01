@@ -31,7 +31,7 @@ controls.target = new THREE.Vector3(0, 0, 0);
 controls.update();
 
 const loader = new GLTFLoader()
-loader.load('tc_gltf.gltf', function(gltf){
+loader.load('assets/tc_gltf.gltf', function(gltf){
   console.log(gltf)
   const root = gltf.scene;
   root.scale.set(0.01, 0.01, 0.01)
